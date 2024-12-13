@@ -16,7 +16,6 @@ DevBook es una red social diseñada para desarrolladores, donde los usuarios pue
 - **Registro y Autenticación de Usuarios:** Permite a los usuarios registrarse y gestionar sus perfiles.
 - **Publicaciones y Comentarios:** Los usuarios pueden crear publicaciones y comentar en las publicaciones de otros.
 - **Sistema de Seguimiento:** Los usuarios pueden seguir a otros y ver sus actividades.
-- **Notificaciones en Tiempo Real:** Notificaciones para interacciones relevantes en la plataforma.
 - **Interfaz Amigable:** Diseñada con Tailwind CSS para una experiencia de usuario atractiva y responsiva.
 
 ## Aprendiendo Laravel
