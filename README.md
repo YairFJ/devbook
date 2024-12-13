@@ -9,7 +9,7 @@
 
 ## Acerca de DevBook
 
-DevBook es una red social diseñada para desarrolladores, donde los usuarios pueden conectarse, compartir conocimientos y colaborar en proyectos. Este proyecto demuestra el uso de Laravel para construir una aplicación robusta y escalable, aprovechando sus características más poderosas.
+DevBook es una red social diseñada para desarrolladores, donde los usuarios pueden conectarse y compartir conocimientos. Este proyecto demuestra el uso de Laravel para construir una aplicación robusta y escalable, aprovechando sus características más poderosas.
 
 ### Características Clave
 
