@@ -28,9 +28,8 @@ Si prefieres aprender a través de videos, [Laracasts] ofrece una extensa biblio
 
 - **Laravel Framework:** Base del proyecto para el desarrollo de la aplicación.
 - **Blade:** Motor de plantillas para renderizar HTML de manera efectiva.
-- **Livewire:** Para construir interfaces dinámicas sin salir de PHP.
-- **Inertia.js:** Para crear aplicaciones de una sola página usando Vue o React.
 - **Tailwind CSS:** Framework CSS para un diseño atractivo y responsivo.
+- **Bootstra:** Framework CSS para estilos.
 
 ## Contribuciones
 
