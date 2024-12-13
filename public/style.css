@@ -1,0 +1,293 @@
+    /* HOME PAGE */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #84A4F4;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    background-color: #84A4F4;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #155724; /* Color del texto */
+    background-color: #d4edda; /* Fondo verde claro */
+    border-color: #c3e6cb; /* Borde verde */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.user-name {
+    font-size: 24px; /* Ajusta el tamaño de fuente según lo necesites */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.profile-picture {
+    width: 150px; /* Ajusta el ancho deseado */
+    height: 150px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Recorta para llenar el contenedor */
+    border-radius: 50%; /* Para hacer la imagen circular */
+}
+
+.user-picture {
+    width: 70px; /* Ajusta el tamaño de la imagen del usuario */
+    height: 70px; /* Ajusta el tamaño de la imagen del usuario */
+    border-radius: 50%; /* Hace la imagen circular */
+    margin: 10px;
+    object-fit: cover; /* Recorta para llenar el contenedor */
+}
+
+.user-picture-small {
+    width: 30px; /* Tamaño más pequeño para la imagen en los comentarios */
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.title-nav{
+  
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+.title-nav:hover{
+    transform: scale(1.2);
+    cursor: default;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links .login:hover{
+    list-style: none;
+    transform: scale(1.1);
+}
+
+.nav-links .register:hover{
+    list-style: none;
+    transform: scale(1.1);
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#login-btn{
+    color: greenyellow;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+}
+
+#register-btn{
+    color: red;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login a{
+    color: black;
+    font-weight: bold;
+}
+
+.register a{
+    color: #9AF58B;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.title-main {
+    text-align: center;
+    font-size: 128px; /* Ajusta el tamaño según prefieras */
+    color: #84A4F4;
+    text-shadow: 2px 2px 2px black;
+}
+
+.title-main span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+
+.title-main span:hover {
+    transform: translateY(-10px); /* Levanta cada letra 10px hacia arriba */
+}
+
+.title-main br {
+    content: "";
+    display: block;
+    margin: 20px 0; /* Espacio entre las dos líneas */
+}
+
+.subtitle-main {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #84A4F4;
+    margin-top: 10%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.subtitle2-main {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bolder;
+    font-size: 45px;;
+    margin-left: 15%;
+    margin-top: 1%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.titles-list{
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 600px;
+    height: 500px;
+    margin-bottom: 2px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+}
+
+.title-footer{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+
+    /* REGISTER PAGE */
+
+.body-register{
+    background-color: #84A4F4;
+    width: 100%;
+    height: 100vh;
+}
+
+.title-register{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+
+.register-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.form-register form{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+.form-register .input{
+    margin: 5%;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.register-btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    margin: 10px 5%;
+    border-radius: 5px;
+}
+
+.already-account{
+    text-align: center;
+}
+    
+
+    /* LOGIN PAGE */
+
+.form-register-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.form-register-login .input{
+    margin: 5%;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.form-register-login form{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.forget {
+    text-align: center;
+}
+
